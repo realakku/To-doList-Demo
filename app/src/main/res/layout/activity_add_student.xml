@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:id="@+id/tt"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textAppearance="@style/Widget.AppCompat.Spinner.Underlined"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/v_name"
+        android:layout_below="@+id/tt"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/v_name"
+        android:layout_below="@id/tt"
+        android:id="@+id/s_name"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marks"
+        android:id="@+id/v_marks"
+        android:layout_below="@+id/v_name"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/v_marks"
+        android:layout_below="@+id/v_name"
+        android:padding="10dp"
+        android:id="@+id/s_marks"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/s_add"
+        android:layout_below="@+id/v_marks"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
